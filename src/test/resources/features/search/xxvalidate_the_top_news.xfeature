@@ -1,0 +1,19 @@
+Feature: Validate and prevent the fake news
+
+  @Regression
+  Scenario:
+    Given Mike is navigated to the Guardian news home page
+    When he reads the top 1 news on the page
+#    And he decided to check the authenticity of these top news on Google Search Engine
+#    Then he should see similar news reported from at least 2 others sources on the Google search results
+#    And the news from the alternative sources should be the latest news
+
+   #@NewsValidation   @Batch_Job1
+
+    #Check the google search results also returns the same news or not
+
+    #Check the new is less than 24 hours window
+
+    #Validate the top story section
+
+    #Broad seearch covers scenario1 and titlesearch covers are nextscenario
